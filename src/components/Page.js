@@ -52,25 +52,16 @@ const Page=()=>{
         </input>     
         </div>
 
-        {/* <div className="flex items-start ml-14 space-x-16">      
-        <p className="text-2xl mr-12 mt-4">Image</p>
-        <input className="w-1/2 border-2 border-gray-800 bg-white px-3 py-2 rounded-md mt-4" type="text" placeholder="Enter value">          
-        </input>     
-        </div> */}
-
+    
         <div class="flex px-16 rounded-lg mt-4 space-x-1">
             <form action="/upload" method="post" enctype="multipart/form-data">
                 <label for="image" className="text-xl mr-16 mt-8">Image</label>
                 <input type="file" id="image" name="image" class="mt-2 px-12"></input>
-                
-                {/* <input type="file" id="image" name="image" class="mt-2"><input/> */}
-                {/* <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md mt-4">Upload</button> */}
-                    </form>
+            </form>
             <div>
             <img className="w-5 h-5 mt-2 " src={icon}> 
                 </img>
-            </div>
-        
+            </div>       
         </div>
 
         <div className="flex items-center justify-start mt-2">
@@ -79,7 +70,6 @@ const Page=()=>{
 
 
        </div>
- 
         <div className="h-full mt-6">
         <div className="flex items-start ml-12 space-x-4">      
         <p className="text-xl ml-12 mt-1">Vat</p>
