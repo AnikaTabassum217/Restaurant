@@ -117,8 +117,6 @@ const Page=()=>{
         <img className="w-20 h-20 ml-72" src={image} />
         </div> */}
 
-        {/* IMAGE UPLOAD */}
-
         {/* <div class="flex px-16 rounded-lg mt-4 space-x-1">
                 <div className="">
                 <p class="text-xl">Image</p>
@@ -131,20 +129,25 @@ const Page=()=>{
 
             {/* PREVIOUS */}
 
-            <div class="flex px-16 rounded-lg mt-4 space-x-1">
-            <div>
-                <label for="image" className="text-xl mr-16 mt-8">Image</label>
-                <input type="file" onChange={imgFileHandler} class="mt-2 px-16"></input>
-            </div>
-            <div>
-            <img className="w-5 h-5 mt-2 " src={icon}> 
-                </img>
-            </div>       
-        </div>
+             {/* IMAGE UPLOAD */}
 
-        <div className="flex items-center justify-start mt-4">
-    <img src={imgfile} height='200' width='200' className="ml-64"></img>
-</div>
+            <div>
+                <div class="flex px-16 rounded-lg mt-4 space-x-1">
+                    <div>
+                        <label for="image" className="text-xl mr-16 mt-8">Image</label>
+                        <input type="file" onChange={imgFileHandler} class="mt-2 px-16"></input>
+                    </div>
+                    <div>
+                    <img className="w-5 h-5 mt-2 " src={icon}> 
+                        </img>
+                    </div>       
+                </div>
+
+                <div className="flex items-center justify-start mt-4">
+                    <img src={imgfile} height='200' width='200' className="ml-64"></img>
+                </div>
+            </div>
+
 
      
 
@@ -208,9 +211,6 @@ const Page=()=>{
                     </label>
                 </div>
 
-
-
-    
 
         <div class="flex items-start ml-12 space-x-7">
                 <div class="w-1/5">
